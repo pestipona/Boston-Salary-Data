@@ -39,6 +39,6 @@ function renderTopEmployees(boston, container) {
     container.innerHTML = '<ul id = "topEmployees">' + html + '</ul>';
 }
 
-renderPosts(boston, document.getElementById('container'));
+//renderPosts(boston, document.getElementById('container'));
 renderTopSalaries(boston, document.getElementById('container'));
-renderTopEmployees(boston, document.getElementById('container'));
+//renderTopEmployees(boston, document.getElementById('container'));
