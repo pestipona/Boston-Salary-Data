@@ -102,10 +102,10 @@ In the project directory do a  ```curl``` command to get the **Boston City data*
 curl  https://pollysnips.s3.amazonaws.com/bostonEmployeeSalaries.json
 ```
 
-To **save the data**, store it into a **json file** ```boston.js``` using the following command.
+To **save the data**, store it into a **json file** ```data.js``` using the following command.
 
 ```bash
-curl -o boston.js https://pollysnips.s3.amazonaws.com/bostonEmployeeSalaries.json
+curl -o data.js https://pollysnips.s3.amazonaws.com/bostonEmployeeSalaries.json
 ```
 
 ## IV. Online Reference:
