@@ -1,4 +1,6 @@
-# City of Boston  Salary Data
+# City of Boston Salary Data:
+
+![](boston.png)
 
 ## I. Walk through Boston public salaries data:
 
@@ -84,13 +86,29 @@ The second part of the web applicaiton  will display all employees who make a mi
 
 **Programmer's Notes:**
 
-* The **HTML element** containing the top earners should have an ID of `````"topEmployees".`````
+* The **HTML element** containing the top earners has an ID of `````"topEmployees".`````
 
-* You should **display the name** of the employee and the **total salary earned** by them.
+* The web application **displays the name** of the employee and the **total salary earned** by them.
 
-* You will need to use ```array.filter()``` to **filter out employees** who make *more than 200k per year*. Check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) on filter() to learn more.
+* The ```array.filter()``` method will be used to **filter out employees** who make *more than 200k per year*.
 
-## III. Online Reference:
+## III. Gathering the Data:
+
+To gather the salary data used for the web application it will be downloaded from the following URL using the following steps.
+
+In the project directory do a  ```curl``` command to get the **Boston City data**, but this just prints out the data in the terminal.
+
+```bash
+curl  https://pollysnips.s3.amazonaws.com/bostonEmployeeSalaries.json
+```
+
+To **save the data**, store it into a **json file** ```boston.js``` using the following command.
+
+```bash
+curl -o boston.js https://pollysnips.s3.amazonaws.com/bostonEmployeeSalaries.json
+```
+
+## IV. Online Reference:
 
 ### html:
 * [\<li>: The List Item element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li#:~:text=Attributes-,%3A%20The%20List%20Item%20element,usually%20displayed%20using%20bullet%20points.)
